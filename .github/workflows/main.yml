@@ -3,8 +3,10 @@ name: CI
 on:
   push:
     branches: [ master ]
+    
 env:
   BUCKET: node-59554.appspot.com
+
 jobs:
    build:
     runs-on: ubuntu-latest
